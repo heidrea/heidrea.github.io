@@ -1,0 +1,24 @@
+{
+  "name": "heidrea.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.2.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^4.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "mustache": "^2.2.1",
+    "through2": "^2.0.1"
+  }
+}
