@@ -450,6 +450,25 @@ div.pad-0-0-0-3 { padding: 0 0 0 3em;   }
   { padding: 0; }
 }
 
+img#osha {
+  height: 60px;
+}
+
+img#vosb {
+  height: 120px;
+  margin-bottom: -30px;
+  margin-left: 60px;
+}
+
+@media (max-width: 960px) {
+  img#osha, img#vosb {
+    margin: 0; !important;
+    display: block;
+  }
+
+  img#vosb { margin-top: 60px; }
+}
+
 .interested, .contact-form {
   display: block;
   background-color: #424242;
