@@ -481,6 +481,7 @@ img#vosb {
 
 .contact-form {
   padding: 1.5em 0 3em 0;
+  z-index: 100;
 }
 
 .contact-form h2 {
