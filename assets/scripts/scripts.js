@@ -43,4 +43,6 @@ $(function() {
     })
     toggleContactForm()
   }
+
+  if (window.location.href.indexOf("#contact") > -1) { toggleContactForm() }
 });
